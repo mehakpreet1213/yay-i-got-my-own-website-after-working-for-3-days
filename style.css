@@ -1,0 +1,44 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+margin: 5px;  
+  
+}
+
+
+.header{
+    padding: 50px;
+    text-align: center;
+    background: #d19fe8;
+    color: #000;
+}
+.navbar {
+    overflow:hidden;
+    background-color:#9717d3;
+    border-color: blue;
+    border-style: solid;
+}
+.navbar a{
+float: left;
+display: block;
+color: black;
+text-align: justify;
+padding: 18px 25px;
+border-color: blue;
+}
+.navbar a:hover{
+  background-color: #9fe8d1;
+color:palevioletred;
+
+}
+.row{
+flex: auto;
+padding: 20px
+} 
+
+
+.h1 {
+font-family: "Lucida Console", "Courier New", monospace;
+}
